@@ -1,0 +1,18 @@
+ALGORITHM palindrome
+VAR
+ i,n:INTEGER   
+ mot:array
+BEGIN
+  for (let i = 0; i < mot.length / 2; i++) {
+        if (mot[i] !== mot[mot.length - 1 - i]) {
+
+    return false; 
+      }
+  
+     return true;
+  
+  }
+
+
+    END_FOR
+END
